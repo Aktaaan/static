@@ -2,28 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06295833-ae37-4bd7-a14a-e31cae042873" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/content/blog/glorfindel/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/blog/majesty/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/blog/tom/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/contact/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/copystaitc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gencontent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/htmlnode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inline_markdown.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/markdown_blocks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test_gencontent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test_htmlnode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test_inline_markdown.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test_markdown_blocks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test_textnode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/textnode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/glorfindel/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/blog/glorfindel/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/majesty/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/blog/majesty/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/blog/tom/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/blog/tom/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/contact/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/contact/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.sh" beforeDir="false" afterPath="$PROJECT_DIR$/main.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/copystaitc.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/copystatic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gencontent.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/gencontent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/htmlnode.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/htmlnode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inline_markdown.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/inline_markdown.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/markdown_blocks.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown_blocks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_gencontent.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_gencontent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_htmlnode.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_htmlnode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_inline_markdown.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_inline_markdown.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_markdown_blocks.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_markdown_blocks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test_textnode.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test_textnode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/textnode.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/textnode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template.html" beforeDir="false" afterPath="$PROJECT_DIR$/template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/test.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,16 +113,5 @@
       <updated>1771006046929</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

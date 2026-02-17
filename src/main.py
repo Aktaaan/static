@@ -1,16 +1,20 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+8 to toggle the breakpoint.
+# from textnode import TextNode
+import sys
+from copystatic import copy_directory
+from gencontent import generate_page
+from gencontent import generate_pages_recursive
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+def main():
+    basepath = "/"
+    if len(sys.argv) > 1:
+        basepath = sys.argv[1]
+    source_path = "./static"
+    destination_path = "./docs"
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    copy_directory(source_path, destination_path)
+
+    generate_pages_recursive("content", "template.html", destination_path, basepath)
+
+
+main()

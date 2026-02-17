@@ -3,9 +3,9 @@ import shutil
 
 def copy_directory(source_path, destination_path):
     # delete public contents
-    if os.path.exists("public"):
-        shutil.rmtree("public")
-    os.mkdir(f"public")
+    if os.path.exists(destination_path):
+        shutil.rmtree(destination_path)
+    os.mkdir(destination_path)
 
     def reck_copy(src_path, dst_path):
         for filename in os.listdir(src_path):
@@ -15,7 +15,7 @@ def copy_directory(source_path, destination_path):
             if os.path.isfile(from_path):
                 shutil.copy(from_path, to_path)
             else:
-                os.mkdir(to_path)
+                os.makedirs(to_path, exist_ok=True)
                 reck_copy(from_path, to_path)
 
     reck_copy(source_path, destination_path)
